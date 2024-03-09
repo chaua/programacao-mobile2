@@ -1,4 +1,16 @@
-kdjflsadjf
-sdaf
-asdf
-asdf
+
+fun soma(a: Int, b: Int): Int {
+    val resultado = a + b
+    return resultado
+}
+
+fun mult(a: Int, b: Int) = a * b
+
+
+fun main() {
+    val x = soma(10, 20)
+    val y = mult(10, 30)
+    println(x)
+    println(y)
+
+}
